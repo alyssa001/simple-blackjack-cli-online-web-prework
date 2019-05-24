@@ -39,12 +39,9 @@ def hit?(hit_or_stay)
 end
 
 def invalid_command
-  # code invalid_command here
+  puts "Please enter a valid command"
 end
 
-#####################################################
-# get every test to pass before coding runner below #
-#####################################################
 
 def runner
   # code runner here
