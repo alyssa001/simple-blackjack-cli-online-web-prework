@@ -28,16 +28,14 @@ def initial_round
   return sum
 end
 
-def hit?
-  def hit?(x)
+def hit?(hit_or_stay)
   prompt_user
   choice = get_user_input
   if choice == "h"
-    x += deal_card
+    hit_or_stay += deal_card
   elsif choice == "s"
-    return x
+    return hit_or_stay
     end 
-end
 end
 
 def invalid_command
